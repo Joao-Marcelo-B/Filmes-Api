@@ -58,3 +58,5 @@ C:\GitHub\Filmes-Api\FilmesApi\FilmesApi\bin\Debug\net6.0\Microsoft.AspNetCore.J
 C:\GitHub\Filmes-Api\FilmesApi\FilmesApi\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\GitHub\Filmes-Api\FilmesApi\FilmesApi\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\GitHub\Filmes-Api\FilmesApi\FilmesApi\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\GitHub\Filmes-Api\FilmesApi\FilmesApi\bin\Debug\net6.0\FilmesApi.xml
+C:\GitHub\Filmes-Api\FilmesApi\FilmesApi\obj\Debug\net6.0\FilmesApi.xml
