@@ -36,13 +36,28 @@ public class FilmeController : ControllerBase
         return CreatedAtAction(nameof(RecuperaFilmePorId), new {id = filme.Id}, filme);
     }
 
+    /// <summary>
+    ///     Recupera os filmes do Banco de Dados de acordo com os parâmetro Skip e Take
+    /// </summary>
+    /// <param name="skip">Pula a quantidade de objetos informados</param>
+    /// <param name="take">Pega a quantidade de objetos informados</param>
+    /// <returns>IEnumerable</returns>
+    /// <response code="200">Caso a busca seja realizada com sucesso</response>
     [HttpGet]
-    public IEnumerable<ReadFilmeDto> RecuperaFilmes([FromQuery]int skip = 0, [FromQuery]int take = 10)
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    public IEnumerable<ReadFilmeDto> RecuperaFilmes([FromQuery]int skip = 0, [FromQuery]int take = 50)
     {
         return _mapper.Map<List<ReadFilmeDto>>(_context.Filmes.Skip(skip).Take(take));
     }
 
+    /// <summary>
+    ///     Recupera o Filme pelo Id
+    /// </summary>
+    /// <param name="id">Id do Filme que deseja fazer a busca</param>
+    /// <returns>IActionResult</returns>
+    /// <response code="200">Caso a busca por Id seja realizada com sucesso</response>
     [HttpGet("{id}")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
     public IActionResult RecuperaFilmePorId(int id)
     {
         var filme = _context.Filmes.FirstOrDefault(filme => filme.Id == id);
@@ -54,7 +69,15 @@ public class FilmeController : ControllerBase
         return Ok(filmeDto);
     }
 
+    /// <summary>
+    ///     Atualiza todos os dados do Filme 
+    /// </summary>
+    /// <param name="id">Id do Filme a ser atualizado</param>
+    /// <param name="filmeDto">Objeto usado para fazer validação e inserção dos dados atualizados</param>
+    /// <returns>IActionResult</returns>
+    /// <response code="204">Caso a atualização seja realizada com sucesso</response>
     [HttpPut("{id}")]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
     public IActionResult AtualizaFilme(int id,
         [FromBody] UpdateFilmeDto filmeDto)
     {
@@ -67,7 +90,15 @@ public class FilmeController : ControllerBase
         return NoContent();
     }
 
+    /// <summary>
+    ///     Atualiza o Filme parcialmente sem precisar se atualizar todo o Objeto
+    /// </summary>
+    /// <param name="id">Id do Filme a ser atualizado</param>
+    /// <param name="patch">Parte a ser atualizada do Objeto</param>
+    /// <returns>IActionResult</returns>
+    /// <response code="204">Caso a atualização seja realizada com sucesso</response>
     [HttpPatch("{id}")]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
     public IActionResult AtualizaFilmeParcial(int id, 
         JsonPatchDocument<UpdateFilmeDto> patch)
     {
@@ -89,7 +120,14 @@ public class FilmeController : ControllerBase
         return NoContent();
     }
 
+    /// <summary>
+    ///     Deleta o Filme do Banco de Dados
+    /// </summary>
+    /// <param name="id">Id do Filme a ser deletado</param>
+    /// <returns>IActionResult</returns>
+    /// <response code="204">Caso a deleção seja realizada com sucesso</response>
     [HttpDelete("{id}")]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
     public IActionResult DeletaFilme(int id)
     {
         var filme = _context.Filmes.FirstOrDefault(filme => filme.Id == id);
