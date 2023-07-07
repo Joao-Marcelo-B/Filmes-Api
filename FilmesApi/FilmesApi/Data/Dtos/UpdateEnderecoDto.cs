@@ -1,4 +1,4 @@
-﻿]namespace FilmesApi.Data.Dtos;
+﻿namespace FilmesApi.Data.Dtos;
 
 public class UpdateEnderecoDto
 {
