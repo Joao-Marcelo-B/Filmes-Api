@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace FilmesApi.Models;
 
@@ -10,5 +11,7 @@ public class Cinema
 
     [Required(ErrorMessage = "O campo de nome é obrigatório.")]
     public string Nome { get; set; }
+    public int EnderecoId { get; set; }
+    public virtual Endereco Endereco { get; set; }
 
 }
