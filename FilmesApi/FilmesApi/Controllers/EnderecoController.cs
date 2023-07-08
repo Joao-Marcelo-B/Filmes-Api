@@ -29,7 +29,7 @@ public class EnderecoController : ControllerBase
         _context.Enderecos.Add(endereco);
         _context.SaveChanges();
 
-        return CreatedAtAction(nameof(RecuperaEnderecoPorId), new {Id = endereco.Id}, endereco);
+        return CreatedAtAction(nameof(RecuperaEnderecoPorId), new {id = endereco.Id}, endereco);
     }
 
     [HttpGet]
