@@ -7,3 +7,12 @@ Esse projeto tem como objetivo concretizar os conhecimentos obtidos durante a mi
 A Api de filmes construída possuí uma integração com um banco de dados MySQL e com ela é possível realizar um CRUD completo usando os verbos **GET, POST, PUT, PATCH e DELETE**. Além disso a aplicação possuí as seguintes entidades: filmes, cinemas, endereços e sessões construindo assim toda uma estrutura de banco relacional.
 
 > :construction: Projeto em construção :construction:
+
+# :hammer: Funcionalidades do projeto
+
+- `Funcionalidades`: Com todas as entidades é possível fazer: consultas, inserções, atualizações e deleções(a entidade Sessão podemos apenas inserir e consultar)
+
+
+
+
+
