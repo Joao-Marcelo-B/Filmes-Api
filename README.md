@@ -10,7 +10,7 @@ A Api de filmes construída possuí uma integração com um banco de dados MySQL
 
 # :hammer: Funcionalidades do projeto
 
-- `Funcionalidades`: Com todas as entidades é possível fazer: consultas, inserções, atualizações e deleções(a entidade Sessão podemos apenas inserir e consultar)
+- `Funcionalidades`: Com todas as entidades é possível fazer: consultas, inserções, atualizações e deleções(a entidade Sessão pode apenas inserir e consultar)
 
 
 
