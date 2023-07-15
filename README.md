@@ -12,6 +12,7 @@ A Api de filmes construída possuí uma integração com um banco de dados MySQL
 
 - `Funcionalidades`: Com todas as entidades é possível fazer: consultas, inserções, atualizações e deleções(a entidade Sessão pode apenas inserir e consultar)
 
+![Animação](https://github.com/Joao-Marcelo-B/Filmes-Api/assets/113398296/2ac8d966-feac-4be8-9bb2-a66eaec6cc79)
 
 
 
