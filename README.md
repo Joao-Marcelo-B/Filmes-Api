@@ -37,6 +37,12 @@ A Api de filmes construída possuí uma integração com um banco de dados MySQL
 
 ### <h3> 🖥️Tecnologias e Ferramentas</h3>
 
+<img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-plain-wordmark.svg" /><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" /><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
+
+- Asp.Net Core
+- Entity Framework
+- LINQ
+- Postman (aplicativo para realizar requisições para teste)
 
 ### Desenvolvedores
 
