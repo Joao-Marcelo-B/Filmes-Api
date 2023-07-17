@@ -10,9 +10,26 @@ A Api de filmes construída possuí uma integração com um banco de dados MySQL
 
 # :hammer: Funcionalidades do projeto
 - É possível fazer consultas, inserções, atualizações e deleções com as entidades (exceto com a entidade sessão que pode apenas inserir e consultar)
+<div style="max-width: 20px;max-height: 15px">
+
 ![Animação](https://github.com/Joao-Marcelo-B/Filmes-Api/assets/113398296/2ac8d966-feac-4be8-9bb2-a66eaec6cc79)
-- Todas entidades possuem dois métodos para o verbo GET. O primeiro retorna todos os registros, além disso é possível definir um skip(parâmetro que defini quantos elementos pular) e um take(parâmetro para quantos elementos pegar), segue um exemplo de consulta: https://localhost:7221/filme?skip=5
 
+</div>
+- Todas entidades possuem dois métodos de consulta para o verbo GET, o primeiro recupera mais de um objeto e o segundo recupera o objeto por Id
+- Além disso o primerio método GET é possível definir um skip(parâmetro que define quantos elementos pular) e um take(parâmetro que define quantos elementos pegar), segue um exemplo de consulta: https://localhost:7221/Filme?skip=2&take=5, nesse caso ele não irá retornar o primerio e segundo filme mas começará a partir do terceiro e com o valor do take em 5 ele retornará do terceito filme até o sétimo.
+<div align="center">
+  
+![Animação](https://github.com/Joao-Marcelo-B/Filmes-Api/assets/113398296/529490e3-7cb5-4140-b196-70faf3183754)
 
+</div>
+
+- Como você pode ter percebido no verbo GET da rota /Filme existe um terceiro parâmetro chamado "nomeCinema". Caso queria retornar os filmes que estão disponíveis em um determinado cinema basta digitar o nome do cinema na query que ele retornará apenas os filmes daquele mesmo cinema. Exemplo da url para chamada do método: https://localhost:7221/Filme?nomeCinema=Cine%20JM
+<div align="center">
+
+![exemplo_query](https://github.com/Joao-Marcelo-B/Filmes-Api/assets/113398296/2b761e91-1abb-441d-a4b2-4f01f49cb097)
+
+</div>
+
+> Esse parâmetro de query está disponivel apenas na rota de /Filme, as demais rotas possuem apenas os parâmetros de query **skip** e **take**
 
 
