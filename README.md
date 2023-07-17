@@ -39,6 +39,8 @@ A Api de filmes construída possuí uma integração com um banco de dados MySQL
 
 <img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-plain-wordmark.svg" /><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" /><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
 
+> Esse projeto foi construido com .Net 6.0
+
 - Asp.Net Core
 - Entity Framework
 - LINQ
