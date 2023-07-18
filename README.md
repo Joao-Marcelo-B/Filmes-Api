@@ -49,6 +49,14 @@ A Api de filmes construída possuí uma integração com um banco de dados MySQL
 ## Considerações Finais
 Como havia dito inicialmente, esse projeto teve como objetivo a concretização dos conhecimetos obtidos ao longo da formação que fiz. Portanto, posso concluir que construindo esse projeto eu consegui exercitar os conhecimentos em APIs REST, protocolo HTTP, a linguagem de programação C# com Entity Framework e outras bibliotecas como AutoMapper para executar mapeamentos do banco de dados construindo um banco relacional com as cardinalidades de 1:1(um para um), 1:n(um para muitos) e n:n(muitos para muitos) fazer consultar usando código SQL e o LINQ do próprio C#. Por fim fico satifesto com esse projeto, e animado para criação de novos projetos e obter mais conhecimeto sobre o desenvolvimento Back-end
 
+## Contatos:
+
+<div>
+<a href="https://www.linkedin.com/in/joao-marcelo-b-narciso/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>   
+<a href="https://instagram.com/joao_marcelo_79/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+<a href = "mailto: joaomarcelobn157@hotmail.com "><img src="https://img.shields.io/badge/-Hotmail-%230077B5?style=for-the-badge&logo=microsoft-outlook&logoColor=white&link=mailto" target="_blank"></a>
+</div>
+
 ## Desenvolvedores
 
 [<img src="https://avatars.githubusercontent.com/u/113398296?v=4" width=115><br><sub>João Marcelo</sub>](https://github.com/Joao-Marcelo-B)
