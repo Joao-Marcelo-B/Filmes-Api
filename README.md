@@ -3,7 +3,7 @@
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)<br>
 
 ## Descrição do Projeto
-Esse projeto tem como objetivo concretizar os conhecimentos obtidos durante a minha formação feita na plataforna da <a href="https://www.alura.com.br/">Alura</a> sobre criação de **Apis Web** no padrão **REST com C#, Entity Framework e LINQ**.<br>
+Esse projeto tem como objetivo concretizar os conhecimentos obtidos durante a minha <a href="https://cursos.alura.com.br/degree/certificate/fcb47a19-1333-4bb4-8018-cb34e97da9c3?lang=pt_BR">formação</a> feita na plataforna da <a href="https://www.alura.com.br/">Alura</a> sobre criação de **Apis Web** no padrão **REST com C#, Entity Framework e LINQ**.<br>
 A Api de filmes construída possuí uma integração com um banco de dados MySQL e com ela é possível realizar um CRUD completo usando os verbos **GET, POST, PUT, PATCH e DELETE**. Além disso a aplicação possuí as seguintes entidades: filmes, cinemas, endereços e sessões construindo assim toda uma estrutura de banco relacional.
 
 > :construction: Projeto em construção :construction:
@@ -47,7 +47,7 @@ A Api de filmes construída possuí uma integração com um banco de dados MySQL
 - Postman (aplicativo para realizar requisições para teste)
 
 ## Considerações Finais
-Como havia dito inicialmente, esse projeto teve como objetivo a concretização dos conhecimetos obtidos ao longo da formação que fiz. Portanto, posso concluir que construindo esse projeto eu consegui exercitar os conhecimentos em APIs REST, protocolo HTTP, a linguagem de programação C# com Entity Framework e outras bibliotecas como AutoMapper para executar mapeamentos do banco de dados construindo um banco relacional com as cardinalidades de 1:1(um para um), 1:n(um para muitos) e n:n(muitos para muitos) fazer consultar usando código SQL e o LINQ do próprio C#. Por fim fico satifesto com esse projeto, e animado para criação de novos projetos e obter mais conhecimeto sobre o desenvolvimento Back-end
+Como havia dito inicialmente, esse projeto teve como objetivo a concretização dos conhecimetos obtidos ao longo da formação que realizei. Portanto, posso concluir que construindo esse projeto eu consegui exercitar os conhecimentos em APIs REST, protocolo HTTP, a linguagem de programação C# com Entity Framework e outras bibliotecas como AutoMapper para executar mapeamentos do banco de dados construindo um banco relacional com as cardinalidades de 1:1(um para um), 1:n(um para muitos) e n:n(muitos para muitos) fazer consultar usando código SQL e o LINQ do próprio C#. Por fim fico satifesto com esse projeto, e animado para criação de novos projetos e obter mais conhecimeto sobre o desenvolvimento Back-end
 
 ## Contatos:
 
