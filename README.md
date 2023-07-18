@@ -43,6 +43,7 @@ A Api de filmes construída possuí uma integração com um banco de dados MySQL
 
 - Asp.Net Core
 - Entity Framework
+- Biblioteca AutoMapper
 - LINQ
 - Postman (aplicativo para realizar requisições para teste)
 
